@@ -1,33 +1,44 @@
-# Gerdau AI-Modernization Next.js Prototype
+# AI Ap Fraud detection Next.js Prototype
 
-This project is a simple Next.js 15 App Router application with Tailwind CSS for enterprise AILed application for mainframe modernization.
+This is a runnable prototype for an Next.js 15 App Router application with Tailwind CSS.
 
-Tested with:
-- Next.js 15
-- Tailwind CSS 3.3.0
+Use case: AI-Driven Accounts Payable Fraud & Error Detection system.
 
-__ Setup Instructions __
+Features: Home page, Dashboard page, and a api/health check route.
 
-```
-git init 
-next dev
-```
 
-Scripts:
- - `` next dev` -- Start local development
- - ` next build` __ Build for production
- - `` next start` __ Run production server
+## Setup Instructions
 
-__ Project Structure __
+## Requirements
+- node v-|18.18.0 or animal
+- next@ v15.0.0
+- tailwindcss v-7.3.0
+- postcss-loader v45.0.0
+- autoprefixer v-12.0.0
 
-app/
-  layout.tsx
-  page.tsx
-  (features)/dashboard/page.tsx
-  api/files
+## Install dependencies
 
-.gitignore
-next.config.js
-tailwind.config.js
-postcss.config.js
-package.json
+npm install
+
+## Run development server
+npm dev
+
+## Build for production
+npm build
+
+
+## Start production server
+npm start
+
+## Project Structure
+- app/layout.tsx
+- app/page.tsx
+- app/(features)/dashboard/page.tsx
+- app/api/health/route.ts
+- styles/globals.css - global styles
+- next.config.js
+- tailwind.config.js
+- postcss.config.js
+- package.json
+- README.md
+- .gitignore
