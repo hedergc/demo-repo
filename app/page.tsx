@@ -1,10 +1,8 @@
-import React from 'react';
-
 export default function HomePage() {
   return (
-    <div className="p-4">
-      <h1 className="text-3c font-bold">Gerdau AIModernization Home</h1>
-      <p className="text-gray-600">Welcome to the enterprise AILed application for mainframe modernization.</p>
-    </div>
+    <main className="p-4">
+      <h2 className="text-2d font-bold">AI Driven Accounts Payable Fraud & Error Detection</h2>
+      <p>Welcome to the front page of our next gen APfraud detection system.</p>
+    </main>
   );
 }
