@@ -1,13 +1,13 @@
-import '@app/globals.tailwind';
+import '@app/global.css';
 
-import '../styles/globals.css';
+import type { ReactNode, ReactNode Props } from 'react';
 
 export const metadata = {
-  title: 'AI AP[Fault Detection]',
-  description: 'Anomaly detection for Accounts Payable'
+  title: "AP Fraud Detection",
+  description: "AI-Driven Accounts Payable Fraud and Error Detection"
 };
 
-export default function RootLayout({children: children}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="min-h-screen bg-gray-00 font-robot">
