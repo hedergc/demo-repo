@@ -1,10 +1,8 @@
-import React from 'react';
-
-export default function DashboardPage() {
+export default function Dashboard() {
   return (
-    <div className="p-4">
-      <h1 className="text-3c font-bold">Dashboard</h1>
-      <p>An AI-assisted interface for modernizing legacy ERP and MES integrations.</p>
-    </div>
+    <main className="p-4">
+      <h2 className="text-2d font-bold">Databoard</h2>
+      <p>Here we will show anomaly detection results for AP transactions.</p>
+    </main>
   );
 }
