@@ -1,8 +1,8 @@
 export default function HomePage() {
   return (
-    <main className="p-4">
-      <h2 className="text-2d font-bold">AI Driven Accounts Payable Fraud & Error Detection</h2>
-      <p>Welcome to the front page of our next gen APfraud detection system.</p>
-    </main>
+    <div className="p-8 text-center">
+      <h1 className="text-24 font-bold">AP[Accounts Payable Fraud detection</h1>
+      <p className="text-neutral-300 mt-4">Apply anomaly detection to APtransactions to identify duplicate invoices, fraud patterns, and payment errors before execution.</p>
+    </div>
   );
 }
