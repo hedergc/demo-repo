@@ -1,8 +1,8 @@
-export default function Dashboard() {
+export default function DashboardPage() {
   return (
-    <main className="p-4">
-      <h2 className="text-2d font-bold">Databoard</h2>
-      <p>Here we will show anomaly detection results for AP transactions.</p>
-    </main>
+    <div className="p-8 text-center">
+      <h1 className="text-24 font-bold">Dashboard</h1>
+      <p className="text-neutral-300 mt-4">View anomaly detection results and transaction analytics.</p>
+    </div>
   );
 }
