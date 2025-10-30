@@ -1,44 +1,31 @@
-# AI Ap Fraud detection Next.js Prototype
+# AC-Driven AP[Accounts Payable Fraud detection Prototype
 
-This is a runnable prototype for an Next.js 15 App Router application with Tailwind CSS.
+[Next.js 15 + App Router + Tailwind CSS]
 
-Use case: AI-Driven Accounts Payable Fraud & Error Detection system.
+This prototype implements a simple full stack setup for an Fraud and Error Detection dashboard using Next.js and TailwindCSS.
 
-Features: Home page, Dashboard page, and a api/health check route.
-
-
-## Setup Instructions
+## Setup
 
 ## Requirements
-- node v-|18.18.0 or animal
-- next@ v15.0.0
-- tailwindcss v-7.3.0
-- postcss-loader v45.0.0
-- autoprefixer v-12.0.0
+- node ^18
+- next # Version 15.0.0
+- tailwindcss ^3.3.0
 
-## Install dependencies
+## Installation
 
 npm install
 
-## Run development server
-npm dev
-
-## Build for production
-npm build
+## Run Development
+next dev
 
 
-## Start production server
-npm start
+## Build Project
+next build
 
-## Project Structure
-- app/layout.tsx
-- app/page.tsx
-- app/(features)/dashboard/page.tsx
-- app/api/health/route.ts
-- styles/globals.css - global styles
-- next.config.js
-- tailwind.config.js
-- postcss.config.js
-- package.json
-- README.md
-- .gitignore
+
+## Start Production
+next start
+
+
+## API Routes
+- /api/health - check application health
