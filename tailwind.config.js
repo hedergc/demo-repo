@@ -1,9 +1,5 @@
 module.exports = {
-  content: ["app**/*.js", "app**/*.mtx", "app**/*.mts"],
-  theme: {
-    extend: {
-      // custom themes here
-    }
-  },
-  plugins: []
+  content: ["app/html.jsx", "app/page.tsx", "app/**/**.tsx"],
+  theme: {},
+  extensions: {}
 }
