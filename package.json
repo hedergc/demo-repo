@@ -1,6 +1,6 @@
 {
-  "name": "gerdau-ai-modernization",
-  "version": "1.0.0",
+  "name": "ai-ap-fraud-detection",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,9 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^15.0.0",
-    "tailwindcss": "^3.3.0",
-    "postcss": "^8.6.1",
-    "autoprefixer": "^4.4.2"
+    "next": "15.0.0",
+    "tailwindcss": "7.3.0",
+    "postcss-loader": "45.0.0",
+    "autoprefixer": "12.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19"
   }
 }
