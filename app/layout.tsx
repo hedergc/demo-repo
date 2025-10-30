@@ -1,16 +1,14 @@
-import '@app/global.css';
-
-import type { ReactNode, ReactNode Props } from 'react';
+import 'tailwindcss/base.css';
+import { ReactNode } from 'react';
 
 export const metadata = {
-  title: "AP Fraud Detection",
-  description: "AI-Driven Accounts Payable Fraud and Error Detection"
+  title: "FinOps AI Cost Optimization"
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({children: children}) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-gray-00 font-robot">
+      <body className="min-h-screen flex flex-col items-center justify-center">
         {children}
       </body>
     </html>

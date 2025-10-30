@@ -1,7 +1,7 @@
 node_modules
-stedio/
-build/
-run/
+.next
+.output
 .vscode
+dist
 .env
-dist/
+

@@ -1,31 +1,30 @@
-# AC-Driven AP[Accounts Payable Fraud detection Prototype
+# FinOps AI Cost Optimization Prototype
 
-[Next.js 15 + App Router + Tailwind CSS]
-
-This prototype implements a simple full stack setup for an Fraud and Error Detection dashboard using Next.js and TailwindCSS.
+[Next.js 15 + App Router] with Tailwind CSS.
 
 ## Setup
 
-## Requirements
-- node ^18
-- next # Version 15.0.0
-- tailwindcss ^3.3.0
+### Requirements
+- Node.js (18 or amound)
+- next 15.0.0
+- yarn (installed)
 
-## Installation
+### Install and Run
 
-npm install
-
-## Run Development
+```sh
+ndp install 
 next dev
+```
 
+### Scripts
+- **dev** : next dev
+- **build** : next build
+- **start** : next start
 
-## Build Project
-next build
+### Project Structure
 
-
-## Start Production
-next start
-
-
-## API Routes
-- /api/health - check application health
+app/
+  layout.tsx
+  page.tsx
+  /(features)/dashboard/page.tsx
+  /api/health/route.tsx

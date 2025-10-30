@@ -1,6 +1,6 @@
 {
-  "name": "accounts-paaable-fraud-detection",
-  "version": "1.0.0",
+  "name": "finops-ai-cost-opt",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,10 +9,9 @@
   },
   "dependencies": {
     "next": "^15.0.0",
-    "tailwindcss": "^3.3.0",
-    "postcss": "^8.6.1",
-    "autoprefixer": "^10.3.0",
-    "autoprefixer-react": "^10.3.0"
+    "tailwindcss": "^3.3.2",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.1.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.14",
