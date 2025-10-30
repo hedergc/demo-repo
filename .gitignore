@@ -1,5 +1,7 @@
 node_modules
-run
-dist
-next.js.out
-public/
+stedio/
+build/
+run/
+.vscode
+.env
+dist/
